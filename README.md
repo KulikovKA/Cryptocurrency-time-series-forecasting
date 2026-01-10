@@ -449,11 +449,11 @@ BTC GRU     0.7559
 
 Ниже представлен график функции потерь, показывающий сходимость модели:
 
-![График обучения BiLSTM ETH (Loss)](pictures/eth/blstm_eth_training_loss.png)
+![График обучения BiLSTM ETH (Loss)](pictures/eth/blst_eth_training_loss.png)
 
 Ниже представлен график функции валидации, показывающий среднюю ошибку модели:
 
-![График обучения BiLSTM ETH (MAE)](pictures/eth/blstm_eth_training_mae.png)
+![График обучения BiLSTM ETH (MAE)](pictures/eth/blst_eth_training_mae.png)
 
 
 #### 3.3 Метрики качества
@@ -473,11 +473,11 @@ BTC GRU     0.7559
 
 **Детальный прогноз (Тестовый период):**
 На графике ниже видно сравнение реальной цены и прогноза модели на тестовом месяце.
-![Прогноз BiLSTM ETH - Детальный](pictures/eth/blstm_eth_predict_month.png)
+![Прогноз BiLSTM ETH - Детальный](pictures/eth/blst_eth_predict_month.png)
 
 **Прогноз на всей истории:**
 Общая картина поведения модели на всем доступном временном промежутке.
-![Прогноз BiLSTM ETH - Вся история](pictures/eth/blstm_eth_predict_full_story.png)
+![Прогноз BiLSTM ETH - Вся история](pictures/eth/blstm_eth_predic_full_story.png)
 
 
 
